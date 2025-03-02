@@ -10,15 +10,40 @@ web page and include your name as author.
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width">
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Drawing App</title>
 </head>
 
 <body>
     <div id="container">
-        <div id="header"> TODO </div>
-        <div id="nav"> TODO </div>
-        <div id="content"> TODO </div>
-        <div id="footer"> TODO </div>
+        <div id="header">Canvas Assignment</div>
+        <div id="nav">
+            <button class="btn">Undo</button>
+            <button class="btn">Clear</button>
+            <div class="dropdown">
+                <button class="dropbtn">Shapes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <button>Square</button>
+                    <button>Circle</button>
+                    <button>Triangle</button>
+                    <button>Trapezoid</button>
+                    
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div id="content">
+            <canvas id="myCanvas"></canvas>
+        </div>
+
+        <div id="footer">
+            <p>&copy;Aaron Dsouza and Adarana Eric Kulvakari</p>
+        </div>
     </div>
 </body>
 
