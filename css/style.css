@@ -22,6 +22,11 @@
     margin-top: 10px;
 }
 
+
+#footer p {
+    font-size: 1.5vw;
+}
+
 #container {
     background-color: rgb(169, 169, 169);
 }
@@ -62,13 +67,7 @@ body {
     justify-content: center;
 }
 
-/* Navbar container */
-/* .navbar {
-    overflow: hidden;
-    
-    
-    font-family: Arial;
-  } */
+/* Code taken from W3Schools*/
 
 /* The dropdown container */
 .dropdown {
