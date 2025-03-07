@@ -30,17 +30,36 @@ web page and include your name as author.
                     <button>Square</button>
                     <button>Circle</button>
                     <button>Triangle</button>
-                    <button>Trapezoid</button>
                     
                 </div>
             </div>
-
-
-
-
         </div>
         <div id="content">
-            <canvas id="myCanvas"></canvas>
+            <div id="canvas-element">
+                <canvas id="myCanvas"></canvas>
+            </div>
+            
+            <div id="shape-properties">
+                <div class ="properties" id="shape-width">
+                    <p id="width-enter">Shape width</p>
+                    <input type="number" autofocus placeholder="Enter shape width here" value="10" min="1">
+                    <p id="width-error-message"></p>
+                </div>
+                <div class ="properties" id="shape-length">
+                    <p id="width-enter">Shape length</p>
+                    <input type="number" autofocus placeholder="Enter shape length here" value="10" min="1">
+                    <p id="length-error-message"></p>
+                </div>
+                <div class ="properties" id="shape-color">
+                    <p id="color-enter">Shape Color</p>
+                    <input type="color" autofocus>
+                </div>
+                
+
+                
+
+            </div>
+
         </div>
         <div id="footer">
             <p>&copy;Aaron Dsouza and Adarana Eric Kulvakari</p>

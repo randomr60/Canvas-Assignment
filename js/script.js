@@ -3,8 +3,8 @@ window.addEventListener("load", function (event) {
     let ctx = canvas.getContext("2d");
 
     function resizeCanvas() {
-        canvas.width = window.innerWidth-100;
-        canvas.height = window.innerHeight-100;
+        canvas.width = 0.9*window.innerWidth-50;
+        canvas.height = 0.9*window.innerHeight-100;
     }
 
     window.addEventListener("resize", resizeCanvas);
