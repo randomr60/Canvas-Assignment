@@ -31,22 +31,6 @@
     background-color: rgb(169, 169, 169);
 }
 
-#content {
-    display: flex;
-    align-items: left;
-}
-#canvas {
-    width: 90%;
-    justify-content: center;
-    margin-left: 30px;
-}
-
-#shape-properties {
-    width: 10%;
-    padding: 5px;
-    justify-content: left;
-}
-
 body {
     margin: 0;
 }
@@ -74,7 +58,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
     display: block;
     border: 1px solid black;
 }
